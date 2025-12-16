@@ -5,7 +5,7 @@
 </h1>
 
 <div align="center">
-  <p style="color:black;font-size:24px;">CISSO <strong>ISC</strong> ! </p>
+  <p style="color:black;font-size:24px;">CISSP <strong>ISC</strong> ! </p>
   <a href="https://github.com/git-bd/cissp/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
   ·
   <a href="https://github.com/git-bd/cissp/issues/new?assignees=&labels=enhancement&template=02_FEATURE_REQUEST.md&title=feat%3A+">Request a Feature</a>
