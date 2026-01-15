@@ -67,7 +67,7 @@ Il existe de nombreuses règles, législations concernant la sécurité fonction
 Miseemeanor et Felony 
 
 description page 28 a 48 a faire en mode chrono ou maps ou minf mapping
-``` html
+
 <!DOCTYPE html>
 <html>
 <body>
@@ -131,4 +131,3 @@ console.log('hello, JavaScript')
 
 </body>
 </html>
-```
