@@ -69,10 +69,7 @@ Miseemeanor et Felony
 description page 28 a 48 a faire en mode chrono ou maps ou minf mapping
 
 <div>
-
-<script src="https://cdn.jsdelivr.net/npm/markmap-lib"></script>
-<script>
-
+<script src="https://cdn.jsdelivr.net/npm/markmap-lib">
 ---
 title: markmap
 markmap:
@@ -119,9 +116,4 @@ console.log('hello, JavaScript')
 
 ![](https://markmap.js.org/favicon.png)
 </script>
-
-<h1>My First Heading</h1>
-
-<p>My first paragraph.</p>
-
 </div>
