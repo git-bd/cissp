@@ -67,6 +67,16 @@ Il existe de nombreuses règles, législations concernant la sécurité fonction
 Miseemeanor et Felony 
 
 description page 28 a 48 a faire en mode chrono ou maps ou minf mapping
+``` html
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/markmap-lib"></script>
+<script>
+	const { Transformer } = window.markmap;
 
 ---
 title: markmap
@@ -113,3 +123,12 @@ console.log('hello, JavaScript')
 | Banana | 2 |
 
 ![](https://markmap.js.org/favicon.png)
+</script>
+
+<h1>My First Heading</h1>
+
+<p>My first paragraph.</p>
+
+</body>
+</html>
+```
