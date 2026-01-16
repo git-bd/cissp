@@ -68,51 +68,47 @@ Miseemeanor et Felony
 
 description page 28 a 48 a faire en mode chrono ou maps ou minf mapping
 
+---
+# This YAML metadata tells editors like JotterPad to render the mindmap
+codeBlockRenderAs: markmap
+---
 
-# [Project Name]
-
+# [Logo/Title]
 <p align="center">
-  <img src="https://via.placeholder.com/150" alt="Logo" width="100"/>
+  <img src="https://via.placeholder.com/100" alt="Logo"/>
   <br>
-  <b>CONFIDENTIAL: SPECIFIC TEXT LABEL HERE</b>
+  <b>LABEL: PROJECT SPECIFIC TEXT</b>
 </p>
 
 ---
 
-### 📜 License
-This project is licensed under the **MIT License**. See the [LICENSE](https://example.com/license) file for details.
-
-### 💰 Financial Summary
-| Description | Amount |
-| :--- | :--- |
-| **Total Budget** | $10,000 |
-| **Expenses** | $2,500 |
-| **Net Balance** | **$7,500** |
-
-### 🔗 Quick Links
-* [Documentation](https://example.com/docs)
-* [Issue Tracker](https://example.com/issues)
-* [Deployment URL](https://example.com/live)
+### 📝 Project Details
+- **License:** MIT License
+- **Total Sum:** $5,000
+- **Project Link:** [Click Here to View](https://example.com)
 
 ---
 
-### 🧠 Project Mindmap
-The following diagram is generated directly from code using Mermaid.
+### 🧠 Mindmap (JotterPad/Markmap Style)
+> To render this as a visual map in JotterPad, ensure the block starts with `markmap`.
 
-```mermaid
-mindmap
-  root((Project Core))
-    Planning
-      Scope
-      Timeline
-      Resources
-    Development
-      Frontend
-      Backend
-      Database
-    Marketing
-      SEO
-      Social Media
-    Launch
-      Beta Test
-      Final Release
+```markmap
+# Central Topic
+## Development
+- Frontend
+  - React
+  - Tailwind
+- Backend
+  - Node.js
+  - MongoDB
+## Design
+- Wireframes
+- Prototyping
+- Branding
+## Finance
+- **Budget**: $5k
+- **Expenses**: $1k
+```
+
+
+      
