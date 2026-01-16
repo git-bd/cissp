@@ -68,50 +68,51 @@ Miseemeanor et Felony
 
 description page 28 a 48 a faire en mode chrono ou maps ou minf mapping
 
-<script src="https://cdn.jsdelivr.net/npm/markmap-lib">
+
+# [Project Name]
+
+<p align="center">
+  <img src="https://via.placeholder.com/150" alt="Logo" width="100"/>
+  <br>
+  <b>CONFIDENTIAL: SPECIFIC TEXT LABEL HERE</b>
+</p>
+
 ---
-title: markmap
-markmap:
-  colorFreezeLevel: 2
+
+### 📜 License
+This project is licensed under the **MIT License**. See the [LICENSE](https://example.com/license) file for details.
+
+### 💰 Financial Summary
+| Description | Amount |
+| :--- | :--- |
+| **Total Budget** | $10,000 |
+| **Expenses** | $2,500 |
+| **Net Balance** | **$7,500** |
+
+### 🔗 Quick Links
+* [Documentation](https://example.com/docs)
+* [Issue Tracker](https://example.com/issues)
+* [Deployment URL](https://example.com/live)
+
 ---
 
-## Links
+### 🧠 Project Mindmap
+The following diagram is generated directly from code using Mermaid.
 
-- [Website](https://markmap.js.org/)
-- [GitHub](https://github.com/gera2ld/markmap)
-
-## Related Projects
-
-- [coc-markmap](https://github.com/gera2ld/coc-markmap) for Neovim
-- [markmap-vscode](https://marketplace.visualstudio.com/items?itemName=gera2ld.markmap-vscode) for VSCode
-- [eaf-markmap](https://github.com/emacs-eaf/eaf-markmap) for Emacs
-
-## Features
-
-Note that if blocks and lists appear at the same level, the lists will be ignored.
-
-### Lists
-
-- **strong** ~~del~~ *italic* ==highlight==
-- `inline code`
-- [x] checkbox
-- Katex: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$ <!-- markmap: fold -->
-  - [More Katex Examples](#?d=gist:af76a4c245b302206b16aec503dbe07b:katex.md)
-- Now we can wrap very very very very long text with the `maxWidth` option
-- Ordered list
-  1. item 1
-  2. item 2
-
-### Blocks
-
-```js
-console.log('hello, JavaScript')
-```
-
-| Products | Price |
-|-|-|
-| Apple | 4 |
-| Banana | 2 |
-
-![](https://markmap.js.org/favicon.png)
-</script>
+```mermaid
+mindmap
+  root((Project Core))
+    Planning
+      Scope
+      Timeline
+      Resources
+    Development
+      Frontend
+      Backend
+      Database
+    Marketing
+      SEO
+      Social Media
+    Launch
+      Beta Test
+      Final Release
