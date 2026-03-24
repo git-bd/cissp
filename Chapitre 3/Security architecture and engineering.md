@@ -1,7 +1,7 @@
 
 # 🚀 Module : Security Architecture and Engineering
 
-**Formatrice / Formateur :** [Votre Nom]**
+**Formatrice / Formateur :** [Votre Nom]** |
 Durée estimée :** ⏳ 45 min**
 Niveau :** ⭐⭐ Intermédiaire
 
