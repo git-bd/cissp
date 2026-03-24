@@ -1,6 +1,9 @@
-# 🚀 Module : [Nom du Sujet ou de la Leçon]
 
-**Formatrice / Formateur :** [Votre Nom] | **Durée estimée :** ⏳ 45 min | **Niveau :** ⭐⭐ Intermédiaire
+# 🚀 Module : Security Architecture and Engineering
+
+**Formatrice / Formateur :** [Votre Nom]**
+Durée estimée :** ⏳ 45 min**
+Niveau :** ⭐⭐ Intermédiaire
 
 ---
 
@@ -12,7 +15,27 @@
 
 ---
 
-## 🧠 1. Architecture Visuelle (Schéma)
+##  1. Secure Design principles
+
+##  2. Concept of security models
+
+##  3. System security traitements
+
+##  4. Security capabilities
+
+##  5. Assess and mitigate the vulnérabilités
+
+##  6. Cryptographic solutions
+
+##  7. Cryptanalytic attacks
+
+##  8. Design site and facility security controls
+
+
+
+
+
+Architecture Visuelle (Schéma)
 
 Rien de tel qu'un diagramme pour comprendre le flux de données. Voici comment les différents éléments interagissent :
 
