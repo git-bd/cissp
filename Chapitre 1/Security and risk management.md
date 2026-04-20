@@ -3,7 +3,8 @@ Savoir définir un risque en fonction des assets et définir le niveau de sécur
 
 ## CIA
 ### Confidentialité
-Respect du moindre privilège aussi bien dans l'accès qu'en transit. 
+Respect du moindre privilège aussi bien dans l'accès qu'en transit.
+  Faire un nuage avec les élément page 15 du slide formation
 ### Intégrité 
 Les données ne doivent pas être modifiées, altérées ou supprimées,**authenticité** et **non-repudiaton**, garantir et vérifier la source et s'assurer qu'il n'y a aucune modification 
 ### Disponibilité
