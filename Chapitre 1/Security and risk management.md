@@ -1,115 +1,109 @@
-**Objectif** 
-Savoir définir un risque en fonction des assets et définir le niveau de sécurité associé
+<h1 align="center">
+  <a href="https://github.com/git-bd/cissp">
+    <img src="./../images/cissp.png" alt="Logo" width="125" height="135">
+  </a>
+</h1>
 
-## CIA
-### Confidentialité
-Respect du moindre privilège aussi bien dans l'accès qu'en transit.
-  Faire un nuage avec les élément page 15 du slide formation
-### Intégrité 
-Les données ne doivent pas être modifiées, altérées ou supprimées,**authenticité** et **non-repudiaton**, garantir et vérifier la source et s'assurer qu'il n'y a aucune modification 
-### Disponibilité
-garantir la disponibilité des données ; garantir les accès, garantir l'utilisation et garantie
+<div align="center">
+  <p style="color:black;font-size:24px;">CISSP <strong>ISC2</strong></p>
+  <p style="color:black;font-size:20px;"><strong>Chapter 1 : Security and risk management</strong></p>
+  <a href="https://github.com/git-bd/cissp/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
+  ·
+  <a href="https://github.com/git-bd/cissp/issues/new?assignees=&labels=enhancement&template=02_FEATURE_REQUEST.md&title=feat%3A+">Request a Feature</a>
+  .
+  <a href="https://github.com/git-bd/cissp/discussions">Ask a Question</a>
+</div>
 
-## Limitation du CIA
-cette triade existe depuis les années 60, l'évolution technique et organisationnel impose de nouveaux besoins: NIST, Parkerian Hexad,etc. La sécurité ne doit pas être vue uniquement par le biais de la technique mais par la gouvernance qui la guide via les responsabilités, les politiques et les process.
-**La sécurité doit être aligné a la stratégie de l'entreprise et protéger ses biens**
+<br />
 
-**SMART** Specific, Measurable, Achievable, Relevant, Time-bound, ces 5 points permettent de définir les objectifs de l'entreprise.
+## Sommaire
+<br />
+<details close="close">
 
-**page 10 du CISSP**:heart:
+* 
+* 
 
+</details>
 
-# Principe de gouvernance
+<br />
 
-## Rôles
-**CISO**: Chief Information Security Officer, il participe aux hautes instances organisation et une vue global des programmes.
+# Understand and Apply Security Concepts
+## Confidentiality
+## Integrity
+## Availability
+## Limitation of the CIA
 
-**CSO**: Chief Security Officer, il est en gestion des ressources humaines et techniques en ce qui concerne la sécurité d'une organisation.
-
-**Security Analyste**: expert technique.
-
-**Manager**: personne en gestion de portefeuilles de service sécurité, compliance, vulnérabilités, soc, etc.
-
-**Directory**: Responsable des manager et responsable des programmes informatiques.
-
-La sécurité est aussi une activité de tous au sein de l'entreprise.
-
-## Framework
-
-**Top-down**: cela nécessite une gouvernance forte, le choix est fait depuis les hautes instances.
-
-**Down-top**: cela représente plus de la réactivité par la technique.
-
-## ISO/IEC 27001
-International Organisation for Standardisation & International Electrotechnical Commission, le plus connu se base sur la gestion des assets d'une organisation 'ISMS' Information Security Management System en se basant sur 14 domaines p18.
-
-## NIST 800-53
-National Institute of Standard and Technology, est une agence qui promeut des standards et Technology et publie des informations sur la sécurité, le cloud, etc. **NIST 800-53** Security and Privacy Control for Federal system and organization reprend 18 domaines et présente également un ensemble de fonction permettant de gérer le risque cyber.
-
-## CIS
-Center for Internet Security publie les bonne pratiques des technologies via Critical Security Controls avant détenu par SANS Institute.
-
-Care vs Diligence: effectuer le mieux son travail et contrôler que le meilleur a été fait.
+# Evaluate and Apply Security Governance Principles
+## 
 
 
-# Compliance
-
-Il existe de nombreuses règles, législations concernant la sécurité fonctions du pays, de l'activité et du contexte de l'organisation.
-
-**US Computer Sécurité Act** 1987
-**US Federal Information Security Management Act** 2002
-
-**US Sarbanes Oxley Act** 2002
-**System and Organization Controls** 
-**Payment Card Industry Data Security Standard**
-
-# Legal and Regulatory issue in holistic contexte
-
-Miseemeanor et Felony 
-
-description page 28 a 48 a faire en mode chrono ou maps ou minf mapping
-
----
-# This YAML metadata tells editors like JotterPad to render the mindmap
-codeBlockRenderAs: markmap
----
-
-# [Logo/Title]
-<p align="center">
-  <img src="https://via.placeholder.com/100" alt="Logo"/>
-  <br>
-  <b>LABEL: PROJECT SPECIFIC TEXT</b>
-</p>
-
----
-
-### 📝 Project Details
-- **License:** MIT License
-- **Total Sum:** $5,000
-- **Project Link:** [Click Here to View](https://example.com)
-
----
-
-### 🧠 Mindmap (JotterPad/Markmap Style)
-> To render this as a visual map in JotterPad, ensure the block starts with `markmap`.
-
-```markmap
-# Central Topic
-## Development
-- Frontend
-  - React
-  - Tailwind
-- Backend
-  - Node.js
-  - MongoDB
-## Design
-- Wireframes
-- Prototyping
-- Branding
-## Finance
-- **Budget**: $5k
-- **Expenses**: $1k
-```
 
 
-      
+# Understand and Apply Risk Management Concept
+
+## Identify Threats and Vulnerabilities
+
+
+## Risk Assessment
+Dessin des 6 phases : Inventorier, Menaces, Analyse, Potentiel, Contre-mesure et Analyse coûts/avantages
+L'évaluation de risque se base sur différents éléments qui permettent de calculer le risque en fonction des différents éléments : AV, EF, SLE, ARO, ALE
+
+### Analyse de risque quantitative
+
+* **AV**: Asset Value
+* **EF**: Exposure Factor en **%** ou de **0 à 1** 
+* **SLE**: Single Loss Expectancy est égale à **AV*EF**
+* **ARO**: Annualized Rate of Occurence **X/an**
+* **ALE**: Annualized Loss Expactancy est égal à **SLE*ARO**
+* **ACS**: Annual Cost of Safeguard **€/an**
+* Valeur de la sécurisation (toujours positif) **(ALE1-ALE2)-ACS**
+
+### Exemple
+Maison bord de mer = 1M€ = AV
+Risque de 
+
+
+### Analyse de risque qualitative
+
+### Scenarii
+
+### Analyse de risque Quantitative vs Qualitative
+Insérer le tableau et rerprendre les exemples précédent  (p97)
+
+## Risk Response / Treatment
+Ce sujet n'abord pas le traitement du risque (attenuer, transférer, accepter ou supprimer) là on est sur la réponse du risque 
+
+## Countermeasure Selection and Implementation
+## Applicable Types of Controls
+* **Preventative** *Préventif*
+* **Detective** *Détectif*
+* **Corrective** *Correctif*
+* **Recovery** *Récupération*
+* **Deterrent** *Dissuasif*
+
+## Control Assessments
+**SCA**
+
+## Monitoring and Measurement
+## Reporting
+## Continuous  Improvement
+## Risk Frameworks
+
+# Understand and Apply Threat Modeling Concepts and Methodologies
+## Threat Modeling Concepts
+## Threat Modeling Methodologies
+
+# Apply Supply Chain Risk Management Concepts
+## Risk Associated with Hardware, Software and Services
+## Third-Pärty Assessment and Monitoring
+## Minimum Security Requirement
+## Service-Level Requirements
+## Frameworks
+
+# Establish and Maintain a Security Awarness, Education and Training Program
+## Methods and Techniques to Present Awareness and Training
+## Periodic Content Reviews
+## Program Effectiveness Evaluation
+
+# Summary
+## Question / Remarks
