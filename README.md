@@ -48,6 +48,9 @@ En centre pearson view avec 2 pièces d'identité en aglais
       1h00 de plus pour 50 questions 
   * 70% de bonne réponse
   * Réponse identique choisir le meilleur context et question en double négation
+  * On ne pas revenir en arrière sur les questions
+  * Toujours avoir une publication NIST en référence à un sujet ou pour plus tard avoir une réference norme/exigence/publication européenne ? 
+
 
   Pour la suite c'est 1 point par heure de webinar 120h00 de webinar mini par an ou autre
 
@@ -74,3 +77,12 @@ Plan de formation sur 6 mois
 # Security operations
 
 # Software development security
+
+# Eléments non traité de la formation dans le CBK ? 
+  
+  Slide 63-64 à catégoriser
+
+
+# lien entre slide et CBK arrivé au slide 83
+  
+
