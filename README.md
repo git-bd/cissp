@@ -61,6 +61,7 @@ Plan de formation sur 6 mois
     Reddit: r/cissp
     Support de test officiel Mike Chapple
     Examen poissble : `Boson`, LearnZapp
+le pla du cours suit celui d emkke chapple il est donc important de voir tous les sujets, certains sujets ne sont pas dans la cbk
   
 # Security and risk management
 
